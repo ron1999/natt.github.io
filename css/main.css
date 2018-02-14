@@ -1,0 +1,322 @@
+/* Global */
+
+body {
+  font-family: Arial, "Sans Serif";
+	margin: 0;
+}
+#gal-header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.gal-sub-header {
+  text-align: center;
+  font-size: 35px;
+}
+h3 {
+  letter-spacing: 1px;
+}
+.btn {
+	width: 200px;
+  margin-top: 25px;
+	margin-right: auto;
+	margin-left: auto;
+  padding: 20px 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+  background-color: #07064d;
+	border: 3px solid #FFFFFF;
+	color: #fff;
+	transition: all 0.3s linear;
+}
+.btn:hover, .btn:active{
+	background-color: #03021a;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+/* Header */
+#header-top {
+  height: 125px;
+  background: #07064D;
+  background-image: url("../images/logo-lg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Navigation */
+.navbar-brand {
+  font-size: 50px;
+  margin-top: 25px;
+}
+.navbar-inverse .navbar-header a:hover {
+  color: #fff;
+}
+.navbar-inverse .navbar-header a:hover {
+  color: #aaa;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background: #07064D;
+  color: #fff;
+  padding: 1% 0;
+  font-size: 1.2em;
+  border: 0;
+}
+.navbar-brand {
+  float: left;
+  min-height: 55px;
+  padding: 0 15px;
+}
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+  color: #fff;
+  background-color: #07064D;
+  transition: all 0.2s linear;
+}
+.navbar-inverse .navbar-nav li a {
+  color: #aaa;
+  letter-spacing: 1.5px;
+}
+#myNav {
+  border-top: 5px solid #07064d;
+}
+.cent{
+  margin-top: 175%;
+}
+button:hover{
+  background-color: #fff;
+}
+/* Carousel and Top Images Background */
+
+#about-bk{
+  height: 400px;
+  background-image: url("../images/background/root.JPG");
+  background-position: 75% 10%;
+  text-align: center;
+}
+#poet-bk {
+  height: 400px;
+  background-image: url("../images/background/bird.JPG");
+  background-position: 15% 40%;
+  text-align: center;
+}
+#photo-bk {
+  height: 400px;
+  background-image: url("../images/background/flower-canopy.JPG");
+  background-position: 60% 90%;
+  text-align: center;
+}
+#about-bk h2, #about-bk p,
+#poet-bk h2, #poet-bk p,
+#photo-bk h2, #photo-bk p {
+  margin: 0;
+  color: #fff;
+}
+#about-bk h2,
+#poet-bk h2,
+#photo-bk h2 {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  font-size: 75px;
+  font-weight: bold;
+}
+#about-bk p,
+#poet-bk p,
+#photo-bk p {
+  font-size: 20px;
+}
+/* Center */
+.row {
+  clear: both;
+}
+#icon {
+  max-width: 200px;
+  margin: 5% auto;
+}
+.container {
+  margin: 5% auto;
+}
+.internal-icon {
+  font-size: 50px;
+}
+#about-cont,
+#offer-cont,
+#contact-cont {
+  background: #eee;
+  border-radius: 10px;
+
+}
+#about-cont h3,
+#offer-cont h3,
+#contact-cont h3 {
+  font-size: 18px;
+}
+#about-cont .row p, #about-cont .row li,
+#offer-cont .row p, #offer-cont .row li,
+#contact-cont .row p, #contact-cont .row li {
+  text-decoration: none;
+  font-size: 1.1em;
+}
+#contact-cont > p {
+  padding-top: 18px;
+  font-size: 15px;
+}
+
+/* Footer */
+
+footer{
+  width: 100%;
+  background-color: #07064d;
+  padding: 3%;
+  color: #fff;
+  margin-bottom: 5px;
+}
+hr {
+  margin: 15px 40px;
+	background-color: #DDDDDD;
+	height: 2px;
+	border: thin;
+}
+.soc {
+  padding: 10px;
+  font-size: 500%;
+  color: #fff;
+}
+.soc:hover {
+  cursor: pointer;
+  color: #aaa;
+  transition: all 0.3s linear;
+}
+#bottom-footer-cap {
+  font-size: 1em;
+}
+
+/* Queeries */
+@media (max-width: 768px){
+  /* Global */
+
+  /* Header */
+  #header-top {
+    height: 100px;
+    background-image: url("../images/logo-md.png");
+    background-position: 39% 45%;
+  }
+  #gal-header {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  /* Carousel and background */
+
+  #poet-bk {
+    background-position: 25% 40%;
+    transition: all 0.3s linear;
+  }
+  /* Center */
+
+  .media-heading {
+    margin: 1% 0;
+  }
+
+  /* Icons */
+
+  .internal-icon{
+    font-size: 35px;
+  }
+  /* Footer */
+
+}
+@media (max-width: 600px) {
+  /* Global */
+  .btn {
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  .btn {
+  	letter-spacing: 1px;
+    width: 150px;
+    padding: 10px 5px;
+  }
+
+  /* Header */
+  #header-top {
+    height: 100px;
+    background-image: url("../images/logo-sm.png");
+  }
+
+  /* Carousel and background */
+  #poet-bk,
+  #about-bk,
+  #photo-bk{
+    height: 300px;
+  }
+  #poet-bk {
+    background-position: 32% 40%;
+    transition: all 0.3s linear;
+  }
+  #about-bk h2,
+  #poet-bk h2,
+  #photo-bk h2 {
+    font-size: 60px;
+  }
+  #about-bk p,
+  #poet-bk p,
+  #photo-bk p {
+    font-size: 18px;
+  }
+
+  /* Center */
+  .caption h3 {
+    font-size: 20px;
+  }
+  .media-heading {
+    margin: 2% 0;
+  }
+  .jumbotron h3 {
+    font-size: 16px;
+  }
+  .jumbotron .row p, .jumbotron .row li {
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  .jumbotron > p {
+    padding-top: 18px;
+    font-size: 15px;
+  }
+
+  /* Icons */
+
+  #icon {
+    max-width: 100px;
+    margin: 5% auto;
+  }
+  .soc {
+    padding: 5px;
+    font-size: 300%;
+    color: #fff;
+  }
+  .internal-icon{
+    font-size: 25px;
+  }
+  /* Footer */
+
+  .footer-head {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 400px) {
+  #header-top {
+    height: 100px;
+    background-image: url("../images/logo-xs.png");
+  }
+}
